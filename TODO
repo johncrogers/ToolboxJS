@@ -1,0 +1,21 @@
+☐ Help Tool
+  to refresh command params / syntax
+☐ Docs
+  to explain how the code works
+☐ Installable Module
+  to make easy to package and consume
+☐ Repo
+  to make improveable
+☐ Universal Config
+  to make easier for personal setup
+☐ Logging
+  to improve understandability / transparency / error handling
+☐ README
+  to explain installation procedure
+☐ _holysheet
+  ☐ build modularity
+  ☐ build setup docs for getting API access
+☐ _grindstone
+  ☐ ensure modularity
+☐ _repoman
+  ☐ ensure modularity
