@@ -1,4 +1,4 @@
-const data = require("./../_samples/yard.js").categories;
+const data = require("../_samples/yard.js").categories;
 const request = require("request");
 
 let requests = [];

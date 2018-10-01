@@ -13,9 +13,29 @@
 ☐ README
   to explain installation procedure
 ☐ _holysheet
+  generate simple to use sample data framework centered around spreadsheets
   ☐ build modularity
   ☐ build setup docs for getting API access
+  ☐ features:
+    ☐ read / write
+    ☐ read / return
 ☐ _grindstone
+  to enable quick workspace management
   ☐ ensure modularity
+☐ _mantra
+  to build and run command routines
+  ☐ build in error handling
 ☐ _repoman
+  to simplify PR review workflow
   ☐ ensure modularity
+  ☐ Branch Capabilites:
+    ☐ generates git branch
+    ☐ update code
+    ☐ build / seed database
+    ☐ create workspace
+    ☐ create features and needed branch config
+☐ _greenhouse
+  to offer easier seeding options
+  ☐ docs for token / auth
+  ☐ build out request seed module
+  ☐ can use holysheet to pull "sample seeds" from shared spreadsheet
