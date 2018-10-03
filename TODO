@@ -1,41 +1,45 @@
-☐ Help Tool
+Help Tool
   to refresh command params / syntax
-☐ Docs
+Docs
   to explain how the code works
-☐ Installable Module
+Installable Module
   to make easy to package and consume
-☐ Repo
+Repo
   to make improveable
-☐ Universal Config
+Universal Config
   to make easier for personal setup
-☐ Logging
+Logging
   to improve understandability / transparency / error handling
-☐ README
+README
   to explain installation procedure
-☐ _holysheet
+_holysheet
   generate simple to use sample data framework centered around spreadsheets
-  ☐ build modularity
-  ☐ build setup docs for getting API access
-  ☐ features:
-    ☐ read / write
-    ☐ read / return
-☐ _grindstone
+  build modularity
+  build setup docs for getting API access
+  features
+    read / write
+    read / return
+☐ _workbench
   to enable quick workspace management
   ☐ ensure modularity
-☐ _mantra
+  ☐ create init function:
+    ☐ readline
+    ☐ docs
+  ☐ Create README
+_mantra
   to build and run command routines
-  ☐ build in error handling
-☐ _repoman
+  build in error handling
+_repoman
   to simplify PR review workflow
-  ☐ ensure modularity
-  ☐ Branch Capabilites:
-    ☐ generates git branch
-    ☐ update code
-    ☐ build / seed database
-    ☐ create workspace
-    ☐ create features and needed branch config
-☐ _greenhouse
+  ensure modularity
+  Branch Capabilites
+    generates git branch
+    update code
+    build / seed database
+    create workspace
+    create features and needed branch config
+_greenhouse
   to offer easier seeding options
-  ☐ docs for token / auth
-  ☐ build out request seed module
-  ☐ can use holysheet to pull "sample seeds" from shared spreadsheet
+  docs for token / auth
+  build out request seed module
+  can use holysheet to pull "sample seeds" from shared spreadsheet

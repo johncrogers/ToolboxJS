@@ -135,3 +135,24 @@ module.exports.remove = () => {
     console.log("  -> Successfully deleted.");
   });
 };
+module.exports.init = () => {
+  // const fs = require("fs");
+  // let contents = `module.exports.config = {
+  //   pathToWorkspaces: "./Desktop/ToolboxJS/_workbench/personal"
+  // };`;
+  // const readline = require("readline");
+  // const rl = readline.createInterface({
+  //   input: process.stdin,
+  //   output: process.stdout
+  // });
+  // rl.question("What do you think of Node.js? ", answer => {
+  //   // TODO: Log the answer in a database
+  //   console.log(`Thank you for your valuable feedback: ${answer}`);
+  //   rl.close();
+  // });
+  // fs.writeFile(fileName, contents, err => {
+  //   if (err) {
+  //     console.log(`ERROR:`, err);
+  //   }
+  // });
+};
