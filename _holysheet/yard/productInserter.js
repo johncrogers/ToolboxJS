@@ -1,11 +1,11 @@
-const data = require("../_samples/yard.js").categories;
+const data = require("./../_samples/yard.js").categories;
 const request = require("request");
 
 let requests = [];
 data.map(category => {
   let options = {
     method: "POST",
-    uri: "/yard/categories",
+    uri: "/yard/products",
     baseUrl: "http://localhost:3000/api",
     headers: {
       Authorization:
