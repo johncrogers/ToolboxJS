@@ -1,14 +1,7 @@
 module.exports.helpNotes = {
-  show: {
-    description: "Opens the directory that contains all workspace files.",
-    arguments: {}
-  },
-  list: {
-    description: "Displays a list of the currently available workspaces.",
-    arguments: {}
-  },
   create: {
     description: "Creates a new workspace file.",
+    example: "wb create rigup /Users/johnrogers/code/rigup/",
     arguments: {
       name: "Name used to reference the workspace in the future.",
       path: "Path to target directory"
@@ -16,6 +9,7 @@ module.exports.helpNotes = {
   },
   open: {
     description: "Opens a workspace for normal use.",
+    example: "wb open rigup",
     arguments: {
       name:
         "Name of the target workspace to open. [ Do not include file extension. ]"
@@ -23,16 +17,28 @@ module.exports.helpNotes = {
   },
   edit: {
     description: "Opens up a workspace configuration for editing.",
+    example: "wb edit rigup",
     arguments: {
       name: "Target workspace to edit."
     }
   },
   remove: {
     description: "Removes target workspace configuration file.",
+    example: "wb remove rigup",
     arguments: {
       name:
         "Target workspace to be deleted. [ Do not include file path or extension. ]"
     }
+  },
+  show: {
+    description: "Opens the directory that contains all workspace files.",
+    example: "wb show",
+    arguments: {}
+  },
+  list: {
+    description: "Displays a list of the currently available workspaces.",
+    example: "wb list",
+    arguments: {}
   }
 };
 module.exports.help = () => {
@@ -41,11 +47,12 @@ module.exports.help = () => {
   commands.forEach(command => {
     let commandArguments = Object.keys(this.helpNotes[command].arguments);
     console.log(`\n  > ${command}: ${this.helpNotes[command].description}`);
+    console.log(`    -> Example: ${this.helpNotes[command].example}`);
     if (commandArguments.length) {
       console.log("    -> Arguments:");
       commandArguments.forEach(argument => {
         console.log(
-          `      -${argument}: ${this.helpNotes[command].arguments[argument]}`
+          `      - ${argument}: ${this.helpNotes[command].arguments[argument]}`
         );
       });
     }
