@@ -80,71 +80,74 @@ function listMajors(auth) {
   sheets.spreadsheets.values.get(
     {
       // spreadsheetId: "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms",
-      // range: "Class Data!A2:E",
+      // range: "Class Data!A2:E"
       spreadsheetId: "1Q55ToGoF13yLwjRY-DiTrC-kttoJ8U1nqejpakjno-k",
-      range: "A2:I18"
+      range: "A2:J53"
     },
     (err, res) => {
       if (err) return console.log("The API returned an error: " + err);
-      const rows = res.data.values;
-      if (rows.length) {
-        let categoryData = [];
-        let productData = [];
-        rows.map(row => {
-          let parent = row[0]
-            .split(" ")
-            .join("_")
-            .toLowerCase();
-          let category = {
-            parent: parent,
-            name: row[1],
-            description: row[2],
-            pricing_info: row[5],
-            purchase_info: row[7],
-            // products: row[4],
-            visible: true
-          };
-          if (
-            category.name &&
-            category.description &&
-            category.parent === "business_assistance"
-          ) {
-            categoryData.push(category);
-          }
-          if (row[4]) {
-            row[4].split("\n").map(product => {
-              let newProduct = product.split(")")[1];
-              newProduct = newProduct.split("");
-              newProduct.shift();
-              newProduct = newProduct.join("");
-              productData.push({
-                title: newProduct,
-                visibility: true,
-                category: category.name
-              });
-            });
-          }
-        });
-        console.log("Categories:", categoryData.length);
-        console.log("Products:", productData.length);
-        let fileContents =
-          "module.exports.categories = " +
-          JSON.stringify(categoryData) +
-          ";\n" +
-          "module.exports.products = " +
-          JSON.stringify(productData) +
-          ";\n";
-        // let fileContents = "";
-        // data.map(category => {
-        //   fileContents += JSON.stringify(category) + "\n";
-        // });
+      if (res) {
+        const rows = res.data.values;
+        if (rows.length) {
+          let categoryData = [];
+          let productData = [];
+          rows.map(row => {
+            let parent = row[0].split(" ");
+            parent.shift();
+            parent = parent.join("_").toLowerCase();
+            // console.log(`${parent}`);
+            let category = {
+              parent: parent,
+              name: row[2],
+              description: row[3],
+              pricing_info: row[6],
+              purchase_info: row[9],
+              visible: true
+            };
+            // console.log(JSON.stringify(category));
 
-        fs.writeFile("./_samples/yard.js", fileContents, err => {
-          if (err) throw err;
-          console.log("The file has been saved!");
-        });
-      } else {
-        console.log("No data found.");
+            if (
+              category.name &&
+              category.description &&
+              category.parent.length
+            ) {
+              categoryData.push(category);
+            }
+            if (row[5]) {
+              row[5].split("\n").map(product => {
+                let newProduct = product.split(")")[1];
+                newProduct = newProduct.split("");
+                newProduct.shift();
+                newProduct = newProduct.join("");
+                productData.push({
+                  title: newProduct,
+                  visibility: true,
+                  category: category.name
+                });
+              });
+            }
+          });
+          console.log("Categories:", categoryData.length);
+          console.log("Products:", productData.length);
+          let fileContents =
+            "module.exports.categories = " +
+            JSON.stringify(categoryData) +
+            ";\n" +
+            "module.exports.products = " +
+            JSON.stringify(productData) +
+            ";\n";
+          // let fileContents = "";
+          // data.map(category => {
+          //   fileContents += JSON.stringify(category) + "\n";
+          // });
+
+          fs.writeFile("./_samples/yard.js", fileContents, err => {
+            if (err) throw err;
+            console.log("The file has been saved!");
+          });
+        } else {
+          console.log("No data found.");
+        }
       }
     }
   );

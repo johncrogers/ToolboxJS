@@ -1,36 +1,48 @@
-const data = require("./../_samples/yard.js").categories;
-const request = require("request");
+const fs = require("fs");
+const request = require("request-promise-native");
 
-let requests = [];
-data.map(category => {
-  let options = {
-    method: "POST",
-    uri: "/yard/products",
-    baseUrl: "http://localhost:3000/api",
-    headers: {
-      Authorization:
-        "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0MzA2MywidG9rZW5fY291bnQiOjEsImV4cCI6MTU0MTAwMjUzM30.rKgX5Lb5C5z1HdfUW3COh42PhbLObSh0SmSPLjHf6x8"
-    },
-    body: category,
-    json: true
-  };
-  requests.push(
-    new Promise((resolve, reject) => {
-      resolve(
-        request(options, (err, res, body) => {
-          if (err) {
-            console.log("ERR:", err);
-          }
-          console.log("RESPONSE:", body);
-        })
-      );
-    })
-  );
-});
-Promise.all(requests)
-  .then(values => {
-    console.log("Success");
-  })
-  .catch(err => {
-    console.log("ERR:", err);
-  });
+async function sendRequests() {
+  const { options, start, end, data } = require("./config.js");
+  const products = data.products;
+  const categoryHash = data.categoryHash;
+  const loopTo = end || products.length;
+  let requestCount = 0;
+  let totalRequests = loopTo - start;
+  console.log(`REQUEST START: ${start}`);
+  console.log(`REQUEST END: ${loopTo}`);
+
+  for (let productIndex = start; productIndex < loopTo; productIndex++) {
+    let product = products[productIndex];
+    product.yard_category_id = categoryHash[product.category];
+    options.body = product;
+    console.log(`Building request for ${product.title}:`);
+
+    await request(options)
+      .then(res => {
+        requestCount++;
+        console.log(
+          `  > ${product.title} inserted. (${requestCount} of ${totalRequests})`
+        );
+      })
+      .catch(err => {
+        if (err) {
+          console.log(`\n  > ERROR: ${product.title}`);
+          console.log(
+            `    -> Product Category: ${product.category}\n` +
+              `    -> Category Hash: ${categoryHash[product.category]}\n`
+          );
+          fs.writeFile(
+            `./_holysheet/yard/logs/${product.title}.html`,
+            err.message,
+            err => {
+              if (err) {
+                console.log("ERROR WHEN WRITING ERROR FILE.");
+              }
+              console.log("  > Error response written.");
+            }
+          );
+        }
+      });
+  }
+}
+sendRequests();
