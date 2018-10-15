@@ -59,15 +59,13 @@ module.exports.help = () => {
   });
 };
 module.exports.show = () => {
-  const config = require("./config.js").config;
   const child_process = require("child_process");
   console.log("Opening workspace folder:");
-  child_process.exec(`open ${config.pathToWorkspaces}/`);
+  child_process.exec(`open ./workspaces/`);
 };
 module.exports.list = () => {
-  const config = require("./config.js").config;
   const fs = require("fs");
-  process.chdir(config.pathToWorkspaces);
+  process.chdir("./workspaces");
   fs.readdir(process.cwd(), function(err, files) {
     if (err) {
       console.log(err);
@@ -86,18 +84,16 @@ module.exports.list = () => {
   });
 };
 module.exports.open = () => {
-  const config = require("./config.js").config;
   const child_process = require("child_process");
   let fileName = process.argv[3];
-  let path = `open ${config.pathToWorkspaces}/${fileName}.code-workspace`;
+  let path = `open ./workspaces/${fileName}.code-workspace`;
   console.log(`Opening workspace: ${process.argv[3]}`);
   console.log(`  -> path: ${path}`);
   child_process.exec(path);
 };
 module.exports.create = () => {
-  const config = require("./config.js").config;
   const fs = require("fs");
-  let fileName = `${config.pathToWorkspaces}/${process.argv[3]}.code-workspace`;
+  let fileName = `./workspaces/${process.argv[3]}.code-workspace`;
   let path = process.argv[4];
   let contents = `{
   "folders": [
@@ -115,18 +111,14 @@ module.exports.create = () => {
   });
 };
 module.exports.edit = () => {
-  const config = require("./config.js").config;
   const child_process = require("child_process");
-  let command = `open -t ${config.pathToWorkspaces}/${
-    process.argv[3]
-  }.code-workspace`;
+  let command = `open -t ./workspaces/${process.argv[3]}.code-workspace`;
   console.log(`Open to edit: ${process.argv[3]}`);
   child_process.exec(command);
 };
 module.exports.remove = () => {
-  const config = require("./config.js").config;
   const fs = require("fs");
-  let fileName = `${config.pathToWorkspaces}/${process.argv[3]}.code-workspace`;
+  let fileName = `./workspaces/${process.argv[3]}.code-workspace`;
   console.log(`Deleting workspace ${process.argv[3]}`);
   fs.unlink(fileName, err => {
     if (err) {
@@ -136,23 +128,10 @@ module.exports.remove = () => {
   });
 };
 module.exports.init = () => {
-  // const fs = require("fs");
-  // let contents = `module.exports.config = {
-  //   pathToWorkspaces: "./Desktop/ToolboxJS/_workbench/personal"
-  // };`;
-  // const readline = require("readline");
-  // const rl = readline.createInterface({
-  //   input: process.stdin,
-  //   output: process.stdout
-  // });
-  // rl.question("What do you think of Node.js? ", answer => {
-  //   // TODO: Log the answer in a database
-  //   console.log(`Thank you for your valuable feedback: ${answer}`);
-  //   rl.close();
-  // });
-  // fs.writeFile(fileName, contents, err => {
-  //   if (err) {
-  //     console.log(`ERROR:`, err);
-  //   }
-  // });
+  const { mkdir } = require("fs");
+  mkdir("./workspaces", () => {
+    console.log(
+      `Workbench is ready to use. Run 'wb help' to get a quick start.`
+    );
+  });
 };
