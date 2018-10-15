@@ -2,7 +2,7 @@ const fs = require("fs");
 const request = require("request-promise-native");
 
 async function sendRequests() {
-  const { options, start, end, data } = require("./config.js");
+  const { options, start, end, data } = require("./categories/config.js");
   const products = data.products;
   const categoryHash = data.categoryHash;
   const loopTo = end || products.length;

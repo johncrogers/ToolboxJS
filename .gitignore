@@ -1,4 +1,7 @@
 /_holysheet/node_modules/
+/_holysheet/yard/
+/_holysheet/_samples/
+/_holysheet/credentials.json
 /_workbench/personal/
 /_workbench/config.js
 /node_modules/

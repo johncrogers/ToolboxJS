@@ -121,7 +121,7 @@ function listMajors(auth) {
                 newProduct = newProduct.join("");
                 productData.push({
                   title: newProduct,
-                  visibility: true,
+                  visibility: "public",
                   category: category.name
                 });
               });

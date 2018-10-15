@@ -19,7 +19,7 @@ module.exports.commands = {
     npm: "npm install",
     bundle: "bundle install"
   },
-  workspaces: require("./../_grindstone/_workspaces.js")
+  workspaces: require("./../_workbench/_workspaces.js")
 };
 module.exports.routines = {
   update: {
@@ -33,7 +33,7 @@ module.exports.routines = {
       ["git", "master"],
       ["git", "pull"],
       ["packages", "npm"],
-      ["packages", "bundle"],
+      // ["packages", "bundle"],
       ["rake", "bubbles"],
       ["rake", "migrate"],
       ["git", "checkout"],

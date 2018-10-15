@@ -550,985 +550,1032 @@ module.exports.categories = [
 module.exports.products = [
   {
     title: "IADC Accredited Well Control",
-    visibility: true,
+    visibility: "public",
     category: "Continued Education Program"
   },
   {
     title: "PEC Safeland Basic / Core",
-    visibility: true,
+    visibility: "public",
     category: "Continued Education Program"
   },
   {
     title: "IADC RigPass",
-    visibility: true,
+    visibility: "public",
     category: "Continued Education Program"
   },
   {
     title: "H2S Accredited Certifications",
-    visibility: true,
+    visibility: "public",
     category: "Continued Education Program"
   },
   {
     title: "CPR / First Aid",
-    visibility: true,
+    visibility: "public",
     category: "Continued Education Program"
   },
   {
     title: "Osha 10/30",
-    visibility: true,
+    visibility: "public",
     category: "Continued Education Program"
   },
   {
     title: "Continued Education Competency Training",
-    visibility: true,
+    visibility: "public",
     category: "Continued Education Program"
   },
   {
     title: "Additional Training Programs available upon request",
-    visibility: true,
+    visibility: "public",
     category: "Continued Education Program"
   },
   {
     title: "Health Insurance Purchasing Consultation",
-    visibility: true,
+    visibility: "public",
     category: "Health Insurance"
   },
-  { title: "RigUp FR's", visibility: true, category: "RigUp SWAG" },
-  { title: "RigUp Polos", visibility: true, category: "RigUp SWAG" },
-  { title: "RigUp Hoodies", visibility: true, category: "RigUp SWAG" },
-  { title: "RigUp Tshirts", visibility: true, category: "RigUp SWAG" },
-  { title: "RigUp Tumblers", visibility: true, category: "RigUp SWAG" },
+  { title: "RigUp FR's", visibility: "public", category: "RigUp SWAG" },
+  { title: "RigUp Polos", visibility: "public", category: "RigUp SWAG" },
+  { title: "RigUp Hoodies", visibility: "public", category: "RigUp SWAG" },
+  { title: "RigUp Tshirts", visibility: "public", category: "RigUp SWAG" },
+  { title: "RigUp Tumblers", visibility: "public", category: "RigUp SWAG" },
   {
     title: "RigUp Performance & Trucker Hats",
-    visibility: true,
+    visibility: "public",
     category: "RigUp SWAG"
   },
   {
     title: "Hard Hat & Bumper Stickers & Coozies",
-    visibility: true,
+    visibility: "public",
     category: "RigUp SWAG"
   },
-  { title: "RigUp Hard Hats", visibility: true, category: "RigUp SWAG" },
+  { title: "RigUp Hard Hats", visibility: "public", category: "RigUp SWAG" },
   {
     title: "FR Button Downs",
-    visibility: true,
+    visibility: "public",
     category: "Safety Apparrel (PPE)"
   },
-  { title: "FR T-Shirts", visibility: true, category: "Safety Apparrel (PPE)" },
+  {
+    title: "FR T-Shirts",
+    visibility: "public",
+    category: "Safety Apparrel (PPE)"
+  },
   {
     title: "Thermal FR's",
-    visibility: true,
+    visibility: "public",
     category: "Safety Apparrel (PPE)"
   },
-  { title: "FR Jeans", visibility: true, category: "Safety Apparrel (PPE)" },
+  {
+    title: "FR Jeans",
+    visibility: "public",
+    category: "Safety Apparrel (PPE)"
+  },
   {
     title: "FR Coveralls",
-    visibility: true,
+    visibility: "public",
     category: "Safety Apparrel (PPE)"
   },
-  { title: "Hard Hats", visibility: true, category: "Safety Apparrel (PPE)" },
+  {
+    title: "Hard Hats",
+    visibility: "public",
+    category: "Safety Apparrel (PPE)"
+  },
   {
     title: "Steel Toed Boots",
-    visibility: true,
+    visibility: "public",
     category: "Safety Apparrel (PPE)"
   },
   {
     title: "Safety Gloves",
-    visibility: true,
+    visibility: "public",
     category: "Safety Apparrel (PPE)"
   },
   {
     title: "Safety Glasses & Goggles",
-    visibility: true,
+    visibility: "public",
     category: "Safety Apparrel (PPE)"
   },
   {
     title: "Hearing Protection",
-    visibility: true,
+    visibility: "public",
     category: "Safety Apparrel (PPE)"
   },
   {
     title: "On-Site accomodation furnishing & rental",
-    visibility: true,
+    visibility: "public",
     category: "Housing Assistance"
   },
   {
     title: "Remote trailer rental",
-    visibility: true,
+    visibility: "public",
     category: "Housing Assistance"
   },
   {
     title: "Furnished apartments",
-    visibility: true,
+    visibility: "public",
     category: "Housing Assistance"
   },
   {
     title: "Extended stay hotels",
-    visibility: true,
+    visibility: "public",
     category: "Housing Assistance"
   },
   {
     title: "Laptops",
-    visibility: true,
+    visibility: "public",
     category: "Computers & Software Programs"
   },
   {
     title: "Laptop Accessories",
-    visibility: true,
+    visibility: "public",
     category: "Computers & Software Programs"
   },
   {
     title: "Standard Software",
-    visibility: true,
+    visibility: "public",
     category: "Computers & Software Programs"
   },
   {
     title: "Job & Industry Specific Software",
-    visibility: true,
+    visibility: "public",
     category: "Computers & Software Programs"
   },
   {
     title: "Entity Formation",
-    visibility: true,
+    visibility: "public",
     category: "Business Formation & Accounting Facilites"
   },
   {
     title: "Accouting & Back Office Facilities",
-    visibility: true,
+    visibility: "public",
     category: "Business Formation & Accounting Facilites"
   },
   {
     title: "Invoicing Payment Solutions",
-    visibility: true,
+    visibility: "public",
     category: "Business Formation & Accounting Facilites"
   },
   {
     title: "Business Cards (Free with Certain Packages",
-    visibility: true,
+    visibility: "public",
     category: "Business Branding and Marketing"
   },
   {
     title: "Business Branding & Awareness",
-    visibility: true,
+    visibility: "public",
     category: "Business Branding and Marketing"
   },
   {
     title: "Digital Marketing",
-    visibility: true,
+    visibility: "public",
     category: "Business Branding and Marketing"
   },
   {
     title: "H2S & Gas Detectors",
-    visibility: true,
+    visibility: "public",
     category: "Safety Equipment"
   },
-  { title: "Fall Protection", visibility: true, category: "Safety Equipment" },
+  {
+    title: "Fall Protection",
+    visibility: "public",
+    category: "Safety Equipment"
+  },
   {
     title: "Respiratory Equipment",
-    visibility: true,
+    visibility: "public",
     category: "Safety Equipment"
   },
   {
     title: "Fire Extinguishers",
-    visibility: true,
+    visibility: "public",
     category: "Safety Equipment"
   },
-  { title: "First Aid Kits", visibility: true, category: "Safety Equipment" },
+  {
+    title: "First Aid Kits",
+    visibility: "public",
+    category: "Safety Equipment"
+  },
   {
     title: "Safety Signs & Hardware",
-    visibility: true,
+    visibility: "public",
     category: "Safety Equipment"
   },
   {
     title: "Financial Planning & Consultation",
-    visibility: true,
+    visibility: "public",
     category: "Financial Advising"
   },
   {
     title: "Small business loans",
-    visibility: true,
+    visibility: "public",
     category: "Small Business Loans"
   },
   {
     title: "Contractor Quick Pay Options",
-    visibility: true,
+    visibility: "public",
     category: "Small Business Loans"
   },
   {
     title: "Used and New Truck Purchasing",
-    visibility: true,
+    visibility: "public",
     category: "Trucks & Auto Insurance"
   },
   {
     title: "Used and New Truck Leasing",
-    visibility: true,
+    visibility: "public",
     category: "Trucks & Auto Insurance"
   },
   {
     title: "Auto Insurance Brokers",
-    visibility: true,
+    visibility: "public",
     category: "Trucks & Auto Insurance"
   },
   {
     title: "Drilling Consultants (Company Men",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Consultants"
   },
   {
     title: "Drilling Superintendents and Supervisors",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Consultants"
   },
   {
     title: "Mud Engineer Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Consultants"
   },
   {
     title: "Directional Drilling Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Consultants"
   },
   {
     title: "MWD Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Consultants"
   },
   {
     title: "HSE - Drilling Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Consultants"
   },
-  { title: "Rig Clerks", visibility: true, category: "Drilling Consultants" },
+  {
+    title: "Rig Clerks",
+    visibility: "public",
+    category: "Drilling Consultants"
+  },
   {
     title: "Solids Control Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Consultants"
   },
   {
     title: "Drilling Engineer Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Consultants"
   },
   {
     title: "SWD Drilling Supervisors",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Consultants"
   },
   {
     title: "Completions Consultants (Company Men",
-    visibility: true,
+    visibility: "public",
     category: "Completions Consultants"
   },
   {
     title: "Completions Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "Completions Consultants"
   },
   {
-    title: "Coil Tubing",
-    visibility: true,
+    title: "Coil Tubing Consultants",
+    visibility: "public",
     category: "Completions Consultants"
   },
   {
     title: "Wireline Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Completions Consultants"
   },
   {
     title: "Thru-Tubing Specialist Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Completions Consultants"
   },
   {
     title: "Frac Technicians",
-    visibility: true,
+    visibility: "public",
     category: "Completions Consultants"
   },
   {
     title: "HSE - Completions Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Completions Consultants"
   },
   {
     title: "Completions Engineer Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Completions Consultants"
   },
   {
     title: "Lease Operator - Pumper Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Production Consultants"
   },
   {
     title: "Production Foreman Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Production Consultants"
   },
   {
     title: "Production Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "Production Consultants"
   },
   {
     title: "Water Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Production Consultants"
   },
   {
     title: "Flowback Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Production Consultants"
   },
   {
     title: "Workover Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Production Consultants"
   },
   {
-    title: "Coiled Tubing",
-    visibility: true,
+    title: "Coil Tubing Consultants",
+    visibility: "public",
     category: "Production Consultants"
   },
   {
     title: "I&E Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Production Consultants"
   },
   {
     title: "HSE - Production Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Production Consultants"
   },
   {
     title: "Production Engineer Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Production Consultants"
   },
   {
     title: "General HSE Consultants",
-    visibility: true,
+    visibility: "public",
     category: "HSE Consultants"
   },
   {
     title: "General HSE Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "HSE Consultants"
   },
   {
     title: "Operation specific HSE Consultants",
-    visibility: true,
+    visibility: "public",
     category: "HSE Consultants"
   },
   {
     title: "Workover Consultants & Crew Managers",
-    visibility: true,
+    visibility: "public",
     category: "Workover Consultants"
   },
   {
     title: "Worker Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "Workover Consultants"
   },
   {
-    title: "Coil (CT) Tubing",
-    visibility: true,
+    title: "Coil Tubing Consultants",
+    visibility: "public",
     category: "Workover Consultants"
   },
   {
     title: "Roustabout and Workover Crew Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Workover Consultants"
   },
   {
     title: "Drilling Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "Supervisor & Superintendent Consultants"
   },
   {
     title: "Completions Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "Supervisor & Superintendent Consultants"
   },
   {
     title: "Production Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "Supervisor & Superintendent Consultants"
   },
   {
     title: "Facilities & Construction Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "Supervisor & Superintendent Consultants"
   },
   {
     title: "Workover Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "Supervisor & Superintendent Consultants"
   },
   {
     title: "Pipeline Crew-Chief Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Supervisor & Superintendent Consultants"
   },
   {
     title: "CPL / RPL / RL Landmen",
-    visibility: true,
+    visibility: "public",
     category: "Land Consultants"
   },
   {
     title: "Crew Chiefs and Project Managers",
-    visibility: true,
+    visibility: "public",
     category: "Land Consultants"
   },
   {
     title: "Title Supervisors and Specialists",
-    visibility: true,
+    visibility: "public",
     category: "Land Consultants"
   },
   {
     title: "Right of Way Agents",
-    visibility: true,
+    visibility: "public",
     category: "Land Consultants"
   },
   {
     title: "Construction Foreman",
-    visibility: true,
+    visibility: "public",
     category: "Construction Consultants"
   },
   {
     title: "Construction Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "Construction Consultants"
   },
   {
     title: "Roustabout Labor",
-    visibility: true,
+    visibility: "public",
     category: "Construction Consultants"
   },
   {
     title: "Facilities and Construction Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Facilities Consultants"
   },
   {
     title: "Battery Construction Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Facilities Consultants"
   },
   {
     title: "Pigging and Compressor Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Facilities Consultants"
   },
   {
     title: "Facilites Superintendents",
-    visibility: true,
+    visibility: "public",
     category: "Facilities Consultants"
   },
   {
     title: "Facilites Engineers",
-    visibility: true,
+    visibility: "public",
     category: "Facilities Consultants"
   },
   {
     title: "Drilling Engineers",
-    visibility: true,
+    visibility: "public",
     category: "Engineering Consultants"
   },
   {
     title: "Production Engineers",
-    visibility: true,
+    visibility: "public",
     category: "Engineering Consultants"
   },
   {
     title: "Completions Engineers",
-    visibility: true,
+    visibility: "public",
     category: "Engineering Consultants"
   },
   {
     title: "Reservoir Engineers",
-    visibility: true,
+    visibility: "public",
     category: "Engineering Consultants"
   },
   {
     title: "Process Engineers",
-    visibility: true,
+    visibility: "public",
     category: "Engineering Consultants"
   },
   {
     title: "Project Management ",
-    visibility: true,
+    visibility: "public",
     category: "Engineering Consultants"
   },
   {
     title: "Facilities Engineers",
-    visibility: true,
+    visibility: "public",
     category: "Engineering Consultants"
   },
   {
     title: "Geologist Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Engineering Consultants"
   },
   {
     title: "Pipeline Construction Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Midstream Consultants"
   },
   {
     title: "Pipeline Inspection Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Midstream Consultants"
   },
   {
     title: "Crew Chiefs and Project Managers",
-    visibility: true,
+    visibility: "public",
     category: "Midstream Consultants"
   },
   {
     title: "Pipeline Engineering Consultants",
-    visibility: true,
+    visibility: "public",
     category: "Midstream Consultants"
   },
-  { title: "CDL Drivers", visibility: true, category: "Midstream Consultants" },
+  {
+    title: "CDL Drivers",
+    visibility: "public",
+    category: "Midstream Consultants"
+  },
   {
     title: "Wheel Mounted Living Quarters",
-    visibility: true,
+    visibility: "public",
     category: "Accomodation Rentals"
   },
   {
     title: "Skid Mounted Living Quarters",
-    visibility: true,
+    visibility: "public",
     category: "Accomodation Rentals"
   },
   {
     title: "Furnished Apartments",
-    visibility: true,
+    visibility: "public",
     category: "Accomodation Rentals"
   },
   {
     title: "Extended Stay Hotels",
-    visibility: true,
+    visibility: "public",
     category: "Accomodation Rentals"
   },
   {
     title: "H-40 to P110 grade casing strings",
-    visibility: true,
+    visibility: "public",
     category: "Casing"
   },
-  { title: "Conductor Casing", visibility: true, category: "Casing" },
-  { title: "Surface Casing", visibility: true, category: "Casing" },
-  { title: "Production Casing", visibility: true, category: "Casing" },
-  { title: "Liners", visibility: true, category: "Casing" },
+  { title: "Conductor Casing", visibility: "public", category: "Casing" },
+  { title: "Surface Casing", visibility: "public", category: "Casing" },
+  { title: "Production Casing", visibility: "public", category: "Casing" },
+  { title: "Liners", visibility: "public", category: "Casing" },
   {
     title: '1 1/4" to 2 7/8" Coiled Tubing Unit Rental',
-    visibility: true,
+    visibility: "public",
     category: "Coiled Tubing Units"
   },
   {
     title: "Truck and Trailer Mounted Units",
-    visibility: true,
+    visibility: "public",
     category: "Coiled Tubing Units"
   },
   {
     title: "Skid Mounted Units",
-    visibility: true,
+    visibility: "public",
     category: "Coiled Tubing Units"
   },
-  { title: "Dyed Diesel Fuel", visibility: true, category: "Diesel Fuel" },
-  { title: "Diesel Fuel", visibility: true, category: "Diesel Fuel" },
+  { title: "Dyed Diesel Fuel", visibility: "public", category: "Diesel Fuel" },
+  { title: "Diesel Fuel", visibility: "public", category: "Diesel Fuel" },
   {
     title: '4 3/4" to 8" Directional Motors',
-    visibility: true,
+    visibility: "public",
     category: "Directional Drilling Tools and Motors"
   },
   {
     title: "Stabilizers",
-    visibility: true,
+    visibility: "public",
     category: "Directional Drilling Tools and Motors"
   },
   {
     title: "Drilling Jars",
-    visibility: true,
+    visibility: "public",
     category: "Directional Drilling Tools and Motors"
   },
   {
     title: "MWD / LWD Tools",
-    visibility: true,
+    visibility: "public",
     category: "Directional Drilling Tools and Motors"
   },
   {
     title: "Non-Mag Collars",
-    visibility: true,
+    visibility: "public",
     category: "Directional Drilling Tools and Motors"
   },
-  { title: "Fixed Cutter PDC Bits", visibility: true, category: "Drill Bits" },
-  { title: "Roller Cone Bits", visibility: true, category: "Drill Bits" },
-  { title: "Percussion Hammers", visibility: true, category: "Drill Bits" },
-  { title: "18' to 45' pipe", visibility: true, category: "Drill Pipe" },
-  { title: "E to S Grade Pipe", visibility: true, category: "Drill Pipe" },
+  {
+    title: "Fixed Cutter PDC Bits",
+    visibility: "public",
+    category: "Drill Bits"
+  },
+  { title: "Roller Cone Bits", visibility: "public", category: "Drill Bits" },
+  { title: "Percussion Hammers", visibility: "public", category: "Drill Bits" },
+  { title: "18' to 45' pipe", visibility: "public", category: "Drill Pipe" },
+  { title: "E to S Grade Pipe", visibility: "public", category: "Drill Pipe" },
   {
     title: "Alluminum and Steel Options",
-    visibility: true,
+    visibility: "public",
     category: "Drill Pipe"
   },
   {
     title: "Water Based Mud (WBM",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Mud and Fluids"
   },
   {
     title: "Oil Based Mud (OBM",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Mud and Fluids"
   },
   {
     title: "Synthetic Based Mud",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Mud and Fluids"
   },
   {
     title: "Lost Circulation Materials (LCM",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Mud and Fluids"
   },
   {
     title: "Open and Closed Loop Systems",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Mud and Fluids"
   },
   {
     title: "Lubricants",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Mud and Fluids"
   },
   {
     title: "Corrosion Inhibitors",
-    visibility: true,
+    visibility: "public",
     category: "Drilling Mud and Fluids"
   },
   {
     title: "5K to 20K rated stacks",
-    visibility: true,
+    visibility: "public",
     category: "Frac Stacks"
   },
   {
     title: "Full Frac Manifold Systems",
-    visibility: true,
+    visibility: "public",
     category: "Frac Stacks"
   },
   {
     title: "Steel Pipe",
-    visibility: true,
+    visibility: "public",
     category: "Line Pipe and Poly Pipe"
   },
   {
     title: "Stainless Steel Pipe",
-    visibility: true,
+    visibility: "public",
     category: "Line Pipe and Poly Pipe"
   },
-  { title: "Poly Pipe", visibility: true, category: "Line Pipe and Poly Pipe" },
+  {
+    title: "Poly Pipe",
+    visibility: "public",
+    category: "Line Pipe and Poly Pipe"
+  },
   {
     title: "Seamless and Welded Pipe",
-    visibility: true,
+    visibility: "public",
     category: "Pipe, Valves, & Fittings (PVF)"
   },
   {
     title: "Seamless, Welded Fittings",
-    visibility: true,
+    visibility: "public",
     category: "Pipe, Valves, & Fittings (PVF)"
   },
   {
     title: "Valves",
-    visibility: true,
+    visibility: "public",
     category: "Pipe, Valves, & Fittings (PVF)"
   },
   {
     title: "Tubing",
-    visibility: true,
+    visibility: "public",
     category: "Pipe, Valves, & Fittings (PVF)"
   },
   {
     title: "Flanges",
-    visibility: true,
+    visibility: "public",
     category: "Pipe, Valves, & Fittings (PVF)"
   },
   {
     title: "MRO Packages",
-    visibility: true,
+    visibility: "public",
     category: "Pipe, Valves, & Fittings (PVF)"
   },
-  { title: "Wellheads", visibility: true, category: "Production Equipment" },
+  {
+    title: "Wellheads",
+    visibility: "public",
+    category: "Production Equipment"
+  },
   {
     title: "2 and 3 Phase Seperators",
-    visibility: true,
+    visibility: "public",
     category: "Production Equipment"
   },
   {
     title: "Heater treaters and Dehy's",
-    visibility: true,
+    visibility: "public",
     category: "Production Equipment"
   },
   {
     title: "Gas Processing Units (GPU's",
-    visibility: true,
+    visibility: "public",
     category: "Production Equipment"
   },
   {
     title: "Flare Stacks and Vapor Recovery Units",
-    visibility: true,
+    visibility: "public",
     category: "Production Equipment"
   },
   {
     title: "Tank Batteries",
-    visibility: true,
+    visibility: "public",
     category: "Production Equipment"
   },
-  { title: "Metering", visibility: true, category: "Production Equipment" },
+  { title: "Metering", visibility: "public", category: "Production Equipment" },
   {
     title: "Light Towers and generators",
-    visibility: true,
+    visibility: "public",
     category: "Surface Rental Equipment"
   },
   {
     title: "Mud Pump and Circulation Systems",
-    visibility: true,
+    visibility: "public",
     category: "Surface Rental Equipment"
   },
   {
     title: "Shale Shakers and Centrifuges",
-    visibility: true,
+    visibility: "public",
     category: "Surface Rental Equipment"
   },
   {
     title: "Pressure Washers and Vacs",
-    visibility: true,
+    visibility: "public",
     category: "Surface Rental Equipment"
   },
   {
     title: "Excavators, Forklifts, and Manlifts.",
-    visibility: true,
+    visibility: "public",
     category: "Surface Rental Equipment"
   },
   {
     title: "H-40 to P110 grade tubing strings",
-    visibility: true,
+    visibility: "public",
     category: "Tubing"
   },
   {
     title: "Skid Mounted and Truck Mounted Rigs",
-    visibility: true,
+    visibility: "public",
     category: "Workover Units"
   },
-  { title: "Pulling Units", visibility: true, category: "Workover Units" },
-  { title: "Snubbing Units", visibility: true, category: "Workover Units" },
-  { title: "P&A Systems", visibility: true, category: "Workover Units" },
+  { title: "Pulling Units", visibility: "public", category: "Workover Units" },
+  { title: "Snubbing Units", visibility: "public", category: "Workover Units" },
+  { title: "P&A Systems", visibility: "public", category: "Workover Units" },
   {
     title: "Nipple Up / Nipple Down",
-    visibility: true,
+    visibility: "public",
     category: "BOP Services"
   },
   {
     title: "Hydrostatic Pressure Testing",
-    visibility: true,
+    visibility: "public",
     category: "BOP Services"
   },
   {
     title: "Casing Running Services",
-    visibility: true,
+    visibility: "public",
     category: "Casing Crews"
   },
   {
     title: "Cement and Cementing Crews",
-    visibility: true,
+    visibility: "public",
     category: "Casing Crews"
   },
   {
     title: "Directional Drilling Crews and Equipment",
-    visibility: true,
+    visibility: "public",
     category: "Directional Drilling and MWD Services"
   },
   {
     title: "MWD/ LWD Crews and Equipment",
-    visibility: true,
+    visibility: "public",
     category: "Directional Drilling and MWD Services"
   },
   {
     title: "Full Directional Packages",
-    visibility: true,
+    visibility: "public",
     category: "Directional Drilling and MWD Services"
   },
   {
     title: "Lost Equipment Retrieval",
-    visibility: true,
+    visibility: "public",
     category: "Fishing Crews"
   },
   {
     title: "Dislodge tools and chemicals",
-    visibility: true,
+    visibility: "public",
     category: "Fishing Crews"
   },
   {
     title: "Flowback Crews and Equipment",
-    visibility: true,
+    visibility: "public",
     category: "Flowback and Well Testing"
   },
   {
     title: "Production Testing",
-    visibility: true,
+    visibility: "public",
     category: "Flowback and Well Testing"
   },
   {
     title: "Frac Support",
-    visibility: true,
+    visibility: "public",
     category: "Flowback and Well Testing"
   },
   {
     title: "Pressure pumping crews and equipment",
-    visibility: true,
+    visibility: "public",
     category: "Fracturing Pressure Pumping Services"
   },
   {
     title: "Frac manifolds",
-    visibility: true,
+    visibility: "public",
     category: "Fracturing Pressure Pumping Services"
   },
   {
     title: "Coil tubing and wireline crews and equipment",
-    visibility: true,
+    visibility: "public",
     category: "Fracturing Pressure Pumping Services"
   },
   {
     title: "Frac sand and fluid hauling",
-    visibility: true,
+    visibility: "public",
     category: "Fracturing Pressure Pumping Services"
   },
   {
     title: "Trucking and Transportation Services",
-    visibility: true,
+    visibility: "public",
     category: "Hotshot Services"
   },
   {
     title: "Lease road construction",
-    visibility: true,
+    visibility: "public",
     category: "Lease Road Construction and Maintenance"
   },
   {
     title: "Lease road maintenance",
-    visibility: true,
+    visibility: "public",
     category: "Lease Road Construction and Maintenance"
   },
   {
     title: "Survey and Permitting",
-    visibility: true,
+    visibility: "public",
     category: "Lease Road Construction and Maintenance"
   },
   {
     title: "Pad Construction",
-    visibility: true,
+    visibility: "public",
     category: "Location Construction Services"
   },
   {
     title: "Battery Construction",
-    visibility: true,
+    visibility: "public",
     category: "Location Construction Services"
   },
   {
     title: "Remediation and Reclaimation Services",
-    visibility: true,
+    visibility: "public",
     category: "Location Construction Services"
   },
   {
     title: "Mud Engineering Services",
-    visibility: true,
+    visibility: "public",
     category: "Mud Engineering and Mud Logging Services"
   },
   {
     title: "Mud and Drilling Fluids",
-    visibility: true,
+    visibility: "public",
     category: "Mud Engineering and Mud Logging Services"
   },
   {
     title: "Mud Logging Services",
-    visibility: true,
+    visibility: "public",
     category: "Mud Engineering and Mud Logging Services"
   },
   {
     title: "Plug and Perf Services",
-    visibility: true,
+    visibility: "public",
     category: "Plug and Perf Services"
   },
-  { title: "Frac Plugs", visibility: true, category: "Plug and Perf Services" },
+  {
+    title: "Frac Plugs",
+    visibility: "public",
+    category: "Plug and Perf Services"
+  },
   {
     title: "Perforating Equipment",
-    visibility: true,
+    visibility: "public",
     category: "Plug and Perf Services"
   },
   {
     title: "Rig Move and Mobilization",
-    visibility: true,
+    visibility: "public",
     category: "Rig Move / Mobilization"
   },
-  { title: "Frac Sand Hauling", visibility: true, category: "Sand Hauling" },
-  { title: "Water Hauling", visibility: true, category: "Water Hauling" },
+  {
+    title: "Frac Sand Hauling",
+    visibility: "public",
+    category: "Sand Hauling"
+  },
+  { title: "Water Hauling", visibility: "public", category: "Water Hauling" },
   {
     title: "Water Transfer Systems",
-    visibility: true,
+    visibility: "public",
     category: "Water Hauling"
   }
 ];
 module.exports.categoryHash = {
-  "Frac Stacks": 161,
-  "Supervisor & Superintendent Consultants": 160,
-  "Accomodation Rentals": 162,
-  "Drilling Mud and Fluids": 163,
-  "Business Formation & Accounting Facilites": 164,
-  "Pipe, Valves, & Fittings (PVF)": 165,
-  "RigUp SWAG": 166,
-  "Production Equipment": 167,
-  "Business Branding and Marketing": 168,
-  "Line Pipe and Poly Pipe": 169,
-  Tubing: 170,
-  "Surface Rental Equipment": 171,
-  "Safety Apparrel (PPE)": 172,
-  "Health Insurance": 173,
-  "Computers & Software Programs": 174,
-  "Continued Education Program": 175,
-  "Trucks & Auto Insurance": 176,
-  "Housing Assistance": 177,
-  "Financial Advising": 178,
-  "Land Consultants": 179,
-  "Small Business Loans": 180,
-  "Construction Consultants": 181,
-  "Safety Equipment": 182,
-  "Facilities Consultants": 183,
-  "Drilling Consultants": 184,
-  "Diesel Fuel": 185,
-  "Completions Consultants": 186,
-  "Directional Drilling Tools and Motors": 187,
-  "Production Consultants": 188,
-  "Drill Pipe": 189,
-  "Workover Consultants": 190,
-  "Drill Bits": 191,
-  "HSE Consultants": 192,
-  "Engineering Consultants": 193,
-  "Workover Units": 194,
-  Casing: 195,
-  "BOP Services": 196,
-  "Coiled Tubing Units": 197,
-  "Midstream Consultants": 198,
-  "Casing Crews": 199,
-  "Directional Drilling and MWD Services": 200,
-  "Fishing Crews": 201,
-  "Flowback and Well Testing": 202,
-  "Fracturing Pressure Pumping Services": 203,
-  "Hotshot Services": 204,
-  "Lease Road Construction and Maintenance": 205,
-  "Mud Engineering and Mud LoggingServices": 206,
-  "Location Construction Services": 207,
-  "Plug and Perf Services": 208,
-  "Rig Move / Mobilization": 209,
-  "Sand Hauling": 210,
-  "Water Hauling": 211
+  "Continued Education Program": 76,
+  "Health Insurance": 77,
+  "RigUp SWAG": 78,
+  "Safety Apparrel (PPE)": 79,
+  "Housing Assistance": 80,
+  "Computers & Software Programs": 81,
+  "Business Formation & Accounting Facilites": 82,
+  "Business Branding and Marketing": 83,
+  "Safety Equipment": 84,
+  "Financial Advising": 85,
+  "Small Business Loans": 86,
+  "Trucks & Auto Insurance": 87,
+  "Drilling Consultants": 88,
+  "Completions Consultants": 89,
+  "Production Consultants": 90,
+  "HSE Consultants": 91,
+  "Workover Consultants": 92,
+  "Supervisor & Superintendent Consultants": 93,
+  "Land Consultants": 94,
+  "Construction Consultants": 95,
+  "Facilities Consultants": 96,
+  "Engineering Consultants": 97,
+  "Midstream Consultants": 98,
+  "Accomodation Rentals": 99,
+  Casing: 100,
+  "Coiled Tubing Units": 101,
+  "Diesel Fuel": 102,
+  "Directional Drilling Tools and Motors": 103,
+  "Drill Bits": 104,
+  "Drill Pipe": 105,
+  "Drilling Mud and Fluids": 106,
+  "Frac Stacks": 107,
+  "Line Pipe and Poly Pipe": 108,
+  "Pipe, Valves, & Fittings (PVF)": 109,
+  "Production Equipment": 110,
+  "Surface Rental Equipment": 111,
+  Tubing: 112,
+  "Workover Units": 113,
+  "BOP Services": 114,
+  "Casing Crews": 115,
+  "Directional Drilling and MWD Services": 116,
+  "Fishing Crews": 117,
+  "Flowback and Well Testing": 118,
+  "Fracturing Pressure Pumping Services": 119,
+  "Hotshot Services": 120,
+  "Lease Road Construction and Maintenance": 121,
+  "Location Construction Services": 122,
+  "Mud Engineering and Mud Logging Services": 123,
+  "Plug and Perf Services": 124,
+  "Rig Move / Mobilization": 125,
+  "Sand Hauling": 126,
+  "Water Hauling": 127
 };
-console.log(`COUNT: ${module.exports.products.length}`);
