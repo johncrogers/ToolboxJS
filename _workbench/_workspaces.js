@@ -61,11 +61,11 @@ module.exports.help = () => {
 module.exports.show = () => {
   const child_process = require("child_process");
   console.log("Opening workspace folder:");
-  child_process.exec(`open ./workspaces/`);
+  child_process.exec(`open ${__dirname}//workspaces/`);
 };
 module.exports.list = () => {
   const fs = require("fs");
-  process.chdir("./workspaces");
+  process.chdir(`${__dirname}/workspaces`);
   fs.readdir(process.cwd(), function(err, files) {
     if (err) {
       console.log(err);
@@ -86,14 +86,14 @@ module.exports.list = () => {
 module.exports.open = () => {
   const child_process = require("child_process");
   let fileName = process.argv[3];
-  let path = `open ./workspaces/${fileName}.code-workspace`;
+  let path = `open ${__dirname}/workspaces/${fileName}/.code-workspace`;
   console.log(`Opening workspace: ${process.argv[3]}`);
   console.log(`  -> path: ${path}`);
   child_process.exec(path);
 };
 module.exports.create = () => {
   const fs = require("fs");
-  let fileName = `./workspaces/${process.argv[3]}.code-workspace`;
+  let fileName = `${__dirname}/workspaces/${process.argv[3]}.code-workspace`;
   let path = process.argv[4];
   let contents = `{
   "folders": [
@@ -112,13 +112,15 @@ module.exports.create = () => {
 };
 module.exports.edit = () => {
   const child_process = require("child_process");
-  let command = `open -t ./workspaces/${process.argv[3]}.code-workspace`;
+  let command = `open -t ${__dirname}/workspaces/${
+    process.argv[3]
+  }.code-workspace`;
   console.log(`Open to edit: ${process.argv[3]}`);
   child_process.exec(command);
 };
 module.exports.remove = () => {
   const fs = require("fs");
-  let fileName = `./workspaces/${process.argv[3]}.code-workspace`;
+  let fileName = `${__dirname}/workspaces/${process.argv[3]}.code-workspace`;
   console.log(`Deleting workspace ${process.argv[3]}`);
   fs.unlink(fileName, err => {
     if (err) {
@@ -129,7 +131,7 @@ module.exports.remove = () => {
 };
 module.exports.init = () => {
   const { mkdir } = require("fs");
-  mkdir("./workspaces", () => {
+  mkdir(`${__dirname}/workspaces`, () => {
     console.log(
       `Workbench is ready to use. Run 'wb help' to get a quick start.`
     );
