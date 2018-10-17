@@ -86,7 +86,7 @@ module.exports.list = () => {
 module.exports.open = () => {
   const child_process = require("child_process");
   let fileName = process.argv[3];
-  let path = `open ${__dirname}/workspaces/${fileName}/.code-workspace`;
+  let path = `open ${__dirname}/workspaces/${fileName}.code-workspace`;
   console.log(`Opening workspace: ${process.argv[3]}`);
   console.log(`  -> path: ${path}`);
   child_process.exec(path);
