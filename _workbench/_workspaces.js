@@ -61,7 +61,7 @@ module.exports.help = () => {
 module.exports.show = () => {
   const child_process = require("child_process");
   console.log("Opening workspace folder:");
-  child_process.exec(`open ${__dirname}//workspaces/`);
+  child_process.exec(`open ${__dirname}/workspaces`);
 };
 module.exports.list = () => {
   const fs = require("fs");
